@@ -12,7 +12,8 @@ venv/
 *.log
 
 # Ignore scan result files
-.csv
+*.csv
+Original.py
 
 # Ignore test api
 testapi.py
