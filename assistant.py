@@ -78,7 +78,8 @@ def upload_file():
 # Fungsi untuk memproses data
 def process_data(df):
     results = []
-    domains = df['Remote Host'].dropna().astype(str).tolist()
+    df['Address'] = df['Remote Host'].dropna().astype(str)
+    domains = df['Address'].tolist()
     valid_domains = [d for d in domains if is_valid_domain(d)]
     
     total_domains = len(valid_domains)
