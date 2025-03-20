@@ -71,6 +71,6 @@ python script.py
 - Progress bar keeps you in the loop.
 
 ### 5. View the Results
-- Results are automatically saved in `scan_results.csv`.
+- Results are automatically saved in `scan_results_XXXXXXXXXX.csv`.
 
 
