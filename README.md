@@ -19,11 +19,11 @@
     v0.4
     Made by Hyoka 
 
-    ## 🌊 Chill-guy Assistant
+## 🌊 Chill-guy Assistant
     
     Chill-guy Assistant is your laid-back cyber buddy! 😎 This GUI-based Python app helps you check domain reputations using VirusTotal API. Plus, it comes with a progress bar so you can chill while it works.
     
-    ## 🚀 Features
+## 🚀 Features
     
     - 📂 Upload CSV File: Load a list of domains easily.
     - 🔎 Domain Validation: Only processes legit domains.
@@ -31,14 +31,14 @@
     - 📊 Progress Bar: Watch the scan progress live.
     - 💾 Auto-save Results: Stores scan results in scan_results.csv.
 
-    ## 🔧 Requirements
+## 🔧 Requirements
     Make sure you have:
     - Python 3.x
     - A VirusTotal API key (set as an environment variable VT_API_KEY)
     - Required dependencies:
         pip install -r requirements.txt
 
-    ## 🎮 How to Use
+## 🎮 How to Use
     
     1. Set Up API Key
         - Get your API key from VirusTotal
