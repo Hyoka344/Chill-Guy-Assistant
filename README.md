@@ -19,7 +19,7 @@
 ```
 
 **v0.4**
-**Made by Hyoka**
+**Developed by Hyoka**
 
 ---
 
