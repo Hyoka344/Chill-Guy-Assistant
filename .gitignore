@@ -12,7 +12,10 @@ venv/
 *.log
 
 # Ignore scan result files
-scan_results.csv
+.csv
+
+# Ignore test api
+testapi.py
 
 # Ignore system files
 .DS_Store
