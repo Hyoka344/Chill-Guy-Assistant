@@ -40,18 +40,18 @@
 
 ## 🎮 How to Use
     
-### 1. Set Up API Key
+1. Set Up API Key
         - Get your API key from VirusTotal
         - Save it as an environment variable:
             - Windows: setx VT_API_KEY "your_api_key"
             - Linux/macOS: export VT_API_KEY="your_api_key"
             
-### 2. Run the Program
-### 3. Upload a CSV File
+2. Run the Program
+3. Upload a CSV File
         - Make sure it has a "Remote Host" or "Address" column with domain names.
         - Select the file using the GUI.
-### 4. Start Scanning
+4. Start Scanning
         - The app validates domains and checks their VirusTotal reputation.
         - Progress bar keeps you in the loop.
-### 5. View the Results
+5. View the Results
         - Results are automatically saved in scan_results.csv.
