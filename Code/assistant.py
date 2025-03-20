@@ -122,7 +122,7 @@ main_frame.pack(fill="both", expand=True)
 
 # Load gambar
 try:
-    image = Image.open("Assets/chillguy.jpg").resize((100, 100))
+    image = Image.open("Image/chillguy.jpg").resize((100, 100))
     photo = ImageTk.PhotoImage(image)
     img_label = tk.Label(main_frame, image=photo, bg="#24283B")
     img_label.pack(pady=10)
