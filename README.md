@@ -31,7 +31,7 @@ Chill-guy Assistant is your laid-back cyber buddy! 😎 This GUI-based Python ap
 - **🔎 Domain Validation**: Only processes legit domains.
 - **🛡️ VirusTotal Reputation Check**: Scans domains for potential threats.
 - **📊 Progress Bar**: Watch the scan progress live.
-- **💾 Auto-save Results**: Stores scan results in `scan_results.csv`.
+- **💾 Auto-save Results**: Stores scan results in `scan_results_XXXXXXXXXX.csv`.
 
 ## 🔧 Requirements
 
