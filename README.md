@@ -1,25 +1,12 @@
 # 🌊 Chill-guy Assistant
 
 ```
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣉⠟⣋⢻⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠇⠃⠐⠀⣼⣿⣿
-⡿⠟⠛⠛⢉⣭⣥⣆⠀⢹⠁⠉⣽⣆⢿⣿⣿
-⡇⠀⠀⠀⠈⣿⣿⣿⣶⣾⣷⣶⣿⣿⢸⣿⣿
-⡇⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿
-⣿⣦⣀⠠⠼⢿⢿⣿⡿⠛⣋⣬⣿⣿⣸⣿⣿
-⣿⣿⣿⣿⣷⡶⢈⠛⠻⠶⠚⠛⠋⣡⡜⢿⣿
-⣿⣿⣿⣿⣿⠇⢨⣿⣶⣶⣶⣾⣿⢀⡿⡌⣿
-⣿⣿⣿⣿⣿⡆⠘⠿⣿⣿⣿⣿⠿⢠⣴⡇⣽
-⣿⣿⣿⣿⣿⣿⡄⣦⠀⠀⠀⠀⣰⠌⠉⢸⣿
-⣿⣿⣿⣿⣿⣿⣷⢹⠿⢧⠸⡿⣿⣷⡇⢸⣿
-⣿⣿⣿⣿⣿⣿⣿⠈⣓⡛⡀⠓⠬⠽⠇⢸⣿
-⣿⣿⣿⣿⣿⣿⢋⣥⠉⠉⣛⠘⠛⠛⢃⢸⣿
-⣿⣿⣿⣿⣿⣿⣌⠒⠛⢈⡀⠜⠵⠄⠁⣼⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣶⣾⣿⣿
+⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏
+⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏⯏
 ```
 
-**v0.4**
-**Developed by Hyoka**
+**v0.4**  
+**Developed by Hyoka**  
 
 ---
 
@@ -57,20 +44,25 @@ Make sure you have:
     export VT_API_KEY="your_api_key"
     ```
 
-### 2. Run the Program
+### 2. Create a `.env` File (Alternative Method)
+If you prefer using an `.env` file, create one in the project directory and add:
+```
+VT_API_KEY=your_api_key
+```
+
+### 3. Run the Program
 ```sh
 python script.py
 ```
 
-### 3. Upload a CSV File
+### 4. Upload a CSV File
 - Make sure it has a `Remote Host` or `Address` column with domain names.
 - Select the file using the GUI.
 
-### 4. Start Scanning
+### 5. Start Scanning
 - The app validates domains and checks their VirusTotal reputation.
 - Progress bar keeps you in the loop.
 
-### 5. View the Results
+### 6. View the Results
 - Results are automatically saved in `scan_results_XXXXXXXXXX.csv`.
-
 
